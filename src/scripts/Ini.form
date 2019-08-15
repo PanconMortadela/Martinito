@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="scripts.Ini">
+  <grid id="27dc6" binding="Pluto" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="72" y="26" width="383" height="166"/>
+    </constraints>
+    <properties>
+      <font name="Arial" size="14" style="0"/>
+      <preferredSize width="400" height="180"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2888f" class="javax.swing.JLabel" binding="tex1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Skin:"/>
+        </properties>
+      </component>
+      <vspacer id="f7f65">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="feeab" class="javax.swing.JComboBox" binding="Skin">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <model>
+            <item value="None"/>
+            <item value="Green Dragonhide"/>
+            <item value="Blue Dragonhide"/>
+            <item value="Red Dragonhide"/>
+            <item value="Black Dragonhide"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f465f" class="javax.swing.JLabel" binding="tex2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Energy"/>
+        </properties>
+      </component>
+      <component id="21109" class="javax.swing.JComboBox" binding="potion">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="None"/>
+            <item value="Energy Potion"/>
+            <item value="Super Energy Potion"/>
+            <item value="Stamine Potion"/>
+          </model>
+        </properties>
+      </component>
+      <vspacer id="e64d2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="11" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="c90fd" class="javax.swing.JLabel" binding="tex3">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stamina use in:"/>
+        </properties>
+      </component>
+      <component id="6b805" class="javax.swing.JSlider" binding="ene">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <majorTickSpacing value="25"/>
+          <minorTickSpacing value="5"/>
+          <paintLabels value="true"/>
+          <paintTicks value="true"/>
+          <value value="25"/>
+        </properties>
+      </component>
+      <hspacer id="4c873">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="48978" class="javax.swing.JButton" binding="Aceptar">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Aceptar"/>
+        </properties>
+      </component>
+      <component id="5cc7b" class="javax.swing.JButton" binding="Cancelar">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
