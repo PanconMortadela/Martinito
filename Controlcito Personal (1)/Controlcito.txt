@@ -1,0 +1,20 @@
+
+
+//Coordenadas para iniciar la ventana 1
+170,10;565,26	//Ventana
+432,330;530,340	//Usuario existente
+//aqui viene teclear pass
+319,360;501,413	//click para juega
+52,37;76,42	//Script
+60,59;125,65	//Start
+567,380;606,392	//Play
+
+//Coordenadas para iniciar la ventana 2
+
+817,123;876,138	//ventana
+637,441;738,455 //Usuario existente
+//aqui viene teclear pass
+540,475;695,515	//Click to play
+260,147;284,155	//Script
+260,168;345,178	//Start
+777,490;811,502	//Play
